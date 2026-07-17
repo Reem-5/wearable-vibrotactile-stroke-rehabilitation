@@ -1,6 +1,6 @@
 # Feasibility of Wearable Vibrotactile Stimulation Glove and Shirt in Upper-Limb Rehabilitation for Stroke Patients
 
-This repository contains the de-identified dataset, Python analysis scripts, and publication-quality figures accompanying the manuscript:
+This repository contains the de-identified dataset, Python analysis scripts, and publication-quality figures associated with the manuscript:
 
 > **Feasibility of Wearable Vibrotactile Stimulation Glove and Shirt in Upper-Limb Rehabilitation for Stroke Patients**
 
@@ -10,7 +10,7 @@ This repository contains the de-identified dataset, Python analysis scripts, and
 
 This repository provides all materials required to reproduce the statistical analyses and figures presented in the manuscript.
 
-### Repository contents
+### Repository Contents
 
 - De-identified clinical trial dataset
 - Python scripts for statistical analyses
@@ -24,9 +24,9 @@ This repository provides all materials required to reproduce the statistical ana
 ```text
 wearable-vibrotactile-stroke-rehabilitation/
 │
-├── Code/
-├── Data/
-├── Figures/
+├── Code/          # Python scripts for statistical analyses and figures
+├── Data/          # De-identified clinical trial dataset
+├── Figures/       # Publication-quality figures
 ├── LICENSE
 ├── README.md
 └── .gitignore
@@ -36,18 +36,19 @@ wearable-vibrotactile-stroke-rehabilitation/
 
 ## Data
 
-The `Data` folder contains the de-identified clinical trial dataset used in this study.
-
-Dataset:
+The `Data` folder contains the de-identified clinical trial dataset:
 
 - `Stroke_Vibrotactile_Rehabilitation_Data.xlsx`
 
-Worksheets:
+The workbook contains three worksheets:
 
-- `FMA_UE`
-- `MAS`
+| Worksheet | Description |
+|-----------|-------------|
+| **README** | Description of the dataset variables and naming conventions |
+| **FMA_UE** | Fugl–Meyer Assessment for Upper Extremity (FMA-UE) data |
+| **MAS** | Modified Ashworth Scale (MAS) data |
 
-No personally identifiable information is included.
+The dataset has been fully de-identified and contains no personally identifiable participant information.
 
 ---
 
@@ -55,11 +56,24 @@ No personally identifiable information is included.
 
 The `Code` folder contains the Python scripts used to reproduce all statistical analyses and publication-quality figures.
 
+| Script | Description |
+|---------|-------------|
+| Figure5.py | FMA-UE baseline vs. post-intervention analysis |
+| Figure6.py | FMA-UE within-group analysis |
+| Figure7.py | FMA-UE between-group change-score analysis |
+| Figure8.py | FMA-UE responder analysis |
+| Figure9.py | MAS change-score analysis |
+| Figure10.py | MAS responder analysis |
+| FigureS1.py | Individual FMA-UE change-score plots |
+| FigureS2.py | Individual MAS change-score plots |
+
+Each script reproduces the corresponding statistical analysis and exports the associated figure.
+
 ---
 
 ## Figures
 
-The `Figures` folder contains the figures included in the manuscript.
+The `Figures` folder contains the publication-quality figures included in the manuscript.
 
 ---
 
@@ -67,7 +81,7 @@ The `Figures` folder contains the figures included in the manuscript.
 
 The analyses were performed using Python 3.
 
-Required packages include:
+Required Python packages include:
 
 - numpy
 - pandas
@@ -83,7 +97,7 @@ Required packages include:
 
 1. Clone this repository.
 2. Install the required Python packages.
-3. Place the dataset in the `Data` folder.
+3. Ensure that `Stroke_Vibrotactile_Rehabilitation_Data.xlsx` is located in the `Data` folder.
 4. Run the desired Python script from the `Code` folder.
 
 Each script reproduces the corresponding statistical analysis and exports the associated figure.
@@ -92,7 +106,7 @@ Each script reproduces the corresponding statistical analysis and exports the as
 
 ## License
 
-This repository is distributed under the MIT License.
+This project is distributed under the MIT License.
 
 ---
 
@@ -100,4 +114,4 @@ This repository is distributed under the MIT License.
 
 If you use this repository, please cite the associated publication.
 
-Citation information will be added after publication.
+Citation information will be updated after the manuscript is published.
