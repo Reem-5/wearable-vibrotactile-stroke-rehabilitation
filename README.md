@@ -1,21 +1,16 @@
 # Feasibility of Wearable Vibrotactile Stimulation Glove and Shirt in Upper-Limb Rehabilitation for Stroke Patients
 
-This repository contains the de-identified dataset, Python analysis scripts, and publication-quality figures associated with the manuscript:
-
-> **Feasibility of Wearable Vibrotactile Stimulation Glove and Shirt in Upper-Limb Rehabilitation for Stroke Patients**
+**Authors:** Walaa Ayyad, Yeongdae Kim, Nathan Odom, and Mazen Al Borno
 
 ---
 
-## Repository Overview
+## Overview
 
-This repository provides all materials required to reproduce the statistical analyses and figures presented in the manuscript.
+This repository contains the de-identified clinical trial dataset, Python analysis scripts, and publication-quality figures associated with the manuscript:
 
-### Repository Contents
+> **Feasibility of Wearable Vibrotactile Stimulation Glove and Shirt in Upper-Limb Rehabilitation for Stroke Patients**
 
-- De-identified clinical trial dataset
-- Python scripts for statistical analyses
-- Publication-quality figures
-- Reproducible research workflow
+The repository provides all materials required to reproduce the statistical analyses and figures presented in the manuscript and is intended to support transparency and reproducible research.
 
 ---
 
@@ -24,7 +19,7 @@ This repository provides all materials required to reproduce the statistical ana
 ```text
 wearable-vibrotactile-stroke-rehabilitation/
 │
-├── Code/          # Python scripts for statistical analyses and figures
+├── Code/          # Python scripts for statistical analyses and figure generation
 ├── Data/          # De-identified clinical trial dataset
 ├── Figures/       # Publication-quality figures
 ├── LICENSE
@@ -38,13 +33,13 @@ wearable-vibrotactile-stroke-rehabilitation/
 
 The `Data` folder contains the de-identified clinical trial dataset:
 
-- `Stroke_Vibrotactile_Rehabilitation_Data.xlsx`
+- **Stroke_Vibrotactile_Rehabilitation_Data.xlsx**
 
-The workbook contains three worksheets:
+The workbook includes the following worksheets:
 
 | Worksheet | Description |
 |-----------|-------------|
-| **README** | Description of the dataset variables and naming conventions |
+| **README** | Description of dataset variables and naming conventions |
 | **FMA_UE** | Fugl–Meyer Assessment for Upper Extremity (FMA-UE) data |
 | **MAS** | Modified Ashworth Scale (MAS) data |
 
@@ -54,7 +49,7 @@ The dataset has been fully de-identified and contains no personally identifiable
 
 ## Code
 
-The `Code` folder contains the Python scripts used to reproduce all statistical analyses and publication-quality figures.
+The `Code` folder contains the Python scripts used to reproduce all statistical analyses and publication-quality figures presented in the manuscript.
 
 | Script | Description |
 |---------|-------------|
@@ -67,7 +62,7 @@ The `Code` folder contains the Python scripts used to reproduce all statistical 
 | FigureS1.py | Individual FMA-UE change-score plots |
 | FigureS2.py | Individual MAS change-score plots |
 
-Each script reproduces the corresponding statistical analysis and exports the associated figure.
+Each script reproduces the corresponding statistical analysis and automatically exports the associated publication-quality figure.
 
 ---
 
@@ -75,11 +70,13 @@ Each script reproduces the corresponding statistical analysis and exports the as
 
 The `Figures` folder contains the publication-quality figures included in the manuscript.
 
+Figures are provided in PDF format for viewing and reference.
+
 ---
 
 ## Software Requirements
 
-The analyses were performed using Python 3.
+The analyses were performed using **Python 3**.
 
 Required Python packages include:
 
@@ -106,12 +103,12 @@ Each script reproduces the corresponding statistical analysis and exports the as
 
 ## License
 
-This project is distributed under the MIT License.
+This repository is distributed under the **MIT License**.
 
 ---
 
 ## Citation
 
-If you use this repository, please cite the associated publication.
+If you use the data or code from this repository, please cite the associated publication.
 
-Citation information will be updated after the manuscript is published.
+Complete citation information will be added after the manuscript is published.
